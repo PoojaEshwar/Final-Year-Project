@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:id="@+id/activity_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="activity_name"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/activity_image"
+        android:layout_width="114dp"
+        android:layout_height="111dp"
+        android:src="@drawable/ic_expand_more_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/activity_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="activity_area"
+        android:textSize="24dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/activity_desc"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text=" hgdksjh jhsgjhcsk jdhxagjdhxgj hxdahjbd xdvajhh mbcxhjsbc xbahjbxmnba"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
